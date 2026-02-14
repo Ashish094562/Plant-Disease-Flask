@@ -1,6 +1,5 @@
 
 import json
-import streamlit as st
 import tensorflow as tf
 from huggingface_hub import hf_hub_download
 from config import REPO_ID, MODEL_FILE, DISEASE_JSON, LABELS_JSON
