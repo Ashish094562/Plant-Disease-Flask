@@ -3,3 +3,4 @@ flask-cors
 pillow
 tensorflow
 gunicorn
+huggingface_hub==0.20.3
