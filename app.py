@@ -19,7 +19,7 @@ DISEASE_INFO = {d["name"]: d for d in disease_list}
 
 @app.route("/health")
 def health():
-    return {"status": "ok"}
+    return {"status": "ok"}, 200
 
 @app.route("/predict", methods=["POST"])
 def predict_disease():
