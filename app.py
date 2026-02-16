@@ -17,6 +17,9 @@ LABELS = load_json(LABELS_PATH)
 disease_list = load_json(DISEASE_PATH)
 DISEASE_INFO = {d["name"]: d for d in disease_list}
 
+@app.route("/health")
+def health():
+    return {"status": "ok"}
 
 @app.route("/predict", methods=["POST"])
 def predict_disease():
