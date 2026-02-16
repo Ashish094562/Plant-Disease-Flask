@@ -1,6 +1,6 @@
 flask
 flask-cors
-numpy==1.24.4
-Pillow
-tflite-runtime==2.14.0
+pillow
+tensorflow
 gunicorn
+huggingface_hub==0.20.3
